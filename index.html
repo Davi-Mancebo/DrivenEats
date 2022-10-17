@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>DrivenEats</title>
+</head>
+<body>
+    <!-- inicio cabecalho -->
+    <div class="cabecalho">
+        <div>
+            <h1>
+                DrivenEats
+            </h1>
+            <h2>
+                Sua comida em 6 minutos
+            </h2>
+        </div>
+    </div>
+    <!-- fim cabecalho -->
+
+    <div class="content">
+
+        <!-- inicio alimento -->
+        <h1>Primeiro, seu prato</h1>
+        <div class="comidas">
+            <ul>
+                <li>
+                    <label onclick="SelectComida()">
+                        <input type="radio" name="comida" id="frango yin yang" value="14.90">
+                        <div class="comida">
+                        <div>
+                            <img src="./assets/images/comidas/frango_yin_yang 1.jpg" alt="">
+                                <h2>Frango Yin Yang</h2>
+                                    <div>
+                                        <p>Um pouco de batata,</p>
+                                        <p>um pouco de salada</p>
+                                    </div>
+                                <h3>R$ 14,90</h3>
+                            </div>
+                        </div>
+                    </label>
+                </li>                
+                <li>
+                    <label onclick="SelectComida()">
+                        <input type="radio" name="comida" id="caixa de coxinha" value="80.00">
+                        <div class="comida">
+                        <div>
+                            <img src="./assets/images/comidas/coxinha.jpg" alt="">
+                                <h2>caixa de coxinha</h2>
+                                    <div>
+                                        <p>1 cento de coxinha,</p>
+                                        <p>1 molho especial!</p>
+                                    </div>
+                                <h3>R$ 80,00</h3>
+                            </div>
+                        </div>
+                    </label>
+                </li>
+                <li>
+                    <label onclick="SelectComida()">
+                        <input type="radio" name="comida" id="caixa de esfiha" value="24.75">
+                        <div class="comida">
+                        <div>
+                            <img src="./assets/images/comidas/esfiha.jpg" alt="">
+                                <h2>Kit Esfiha</h2>
+                                    <div>
+                                        <p>15 esfihas de carne,</p>
+                                        <p>10 esfihas de queijo</p>
+                                    </div>
+                                <h3>R$ 24.75</h3>
+                            </div>
+                        </div>
+                    </label>
+                </li>
+                <li>
+                    <label onclick="SelectComida()">
+                        <input type="radio" name="comida" id="Coxinha Gigante" value="20.00">
+                        <div class="comida">
+                        <div>
+                            <img src="./assets/images/comidas/coxinha gigante.jpg" alt="">
+                                <h2>Coxinha Gigante</h2>
+                                    <div>
+                                        <p>500 gramas de coxinha</p>
+                                        <p>recheada com catupiry!</p>
+                                    </div>
+                                <h3>R$ 20,00</h3>
+                            </div>
+                        </div>
+                    </label>
+                </li>
+            </ul>
+        </div>
+        <!-- fim alimento  -->
+
+        <!-- inicio bebidas -->
+        <h1>agora sua bebida</h1>
+        <div class="comidas">
+            <ul>
+                <li>
+                    <label onclick="SelectBebida()">
+                        <input type="radio" name="bebida" id="coquinha gelada" value="5.00">
+                        <div class="comida">
+                        <div>
+                            <img src="./assets/images/bebidas/coquinha_gelada 1.jpg" alt="">
+                                <h2>Coquinha Gelada</h2>
+                                    <div>
+                                        <p>lata coca 350ml,</p>
+                                        <p>com ou sem açucar!</p>
+                                    </div>
+                                <h3>R$ 5,00</h3>
+                            </div>
+                        </div>
+                    </label>
+                </li>                
+                <li>
+                    <label onclick="SelectBebida()">
+                        <input type="radio" name="bebida" id="chá gelado" value="8.35">
+                        <div class="comida">
+                        <div>
+                            <img src="./assets/images/bebidas/cha_gelado.jpg" alt="">
+                                <h2>Chá Gelado</h2>
+                                    <div>
+                                        <p>Chá gelado</p>
+                                        <p>tipo mate</p>
+                                    </div>
+                                <h3>R$ 8,35</h3>
+                            </div>
+                        </div>
+                    </label>
+                </li>
+                <li>
+                    <label onclick="SelectBebida()">
+                        <input type="radio" name="bebida" id="Refrigerante 2L" value="10.00">
+                        <div class="comida">
+                        <div>
+                            <img src="./assets/images/bebidas/2l.png" alt="">
+                                <h2>Refrigerante 2L</h2>
+                                    <div>
+                                        <p>Coca cola, fanta,</p>
+                                        <p>sprite e pepsi!</p>
+                                    </div>
+                                <h3>R$ 10,00</h3>
+                            </div>
+                        </div>
+                    </label>
+                </li>
+                <li>
+                    <label onclick="SelectBebida()">
+                        <input type="radio" name="bebida" id="Suco Natural" value="12.45">
+                        <div class="comida">
+                        <div>
+                            <img src="./assets/images/bebidas/suc_natural.jpg" alt="">
+                                <h2>Frango Yin Yang</h2>
+                                    <div>
+                                        <p>Laranja, acerola,</p>
+                                        <p>limão e papaia!</p>
+                                    </div>
+                                <h3>R$ 12,45</h3>
+                            </div>
+                        </div>
+                    </label>
+                </li>
+            </ul>
+        </div>
+        <!-- fim bebidas -->
+
+        <!-- inicio sobremesas -->
+        <h1>por fim sua sobremesa</h1>
+        <div class="comidas">
+            <ul>
+                <li>
+                    <label onclick="SelectSobremesa()">
+                        <input type="radio" name="sobremesa" id="Pudim" value="7.90">
+                        <div class="comida">
+                        <div>
+                            <img src="./assets/images/sobremesa/pudim 1.png" alt="">
+                                <h2>Pudim</h2>
+                                    <div>
+                                        <p>Pudim de leite</p>
+                                    </div>
+                                <h3>R$ 7,90</h3>
+                            </div>
+                        </div>
+                    </label>
+                </li>                
+                <li>
+                    <label onclick="SelectSobremesa()">
+                        <input type="radio" name="sobremesa" id="Pavê" value="7.90">
+                        <div class="comida">
+                        <div>
+                            <img src="./assets/images/sobremesa/pave-de-chocolate.jpg" alt="">
+                                <h2>Pavê</h2>
+                                    <div>
+                                        <p>fatia de pavê</p>
+                                    </div>
+                                <h3>R$ 7.90</h3>
+                            </div>
+                        </div>
+                    </label>
+                </li>
+                <li>
+                    <label onclick="SelectSobremesa()">
+                        <input type="radio" name="sobremesa" id="Trufa de chocolate" value="11.40">
+                        <div class="comida">
+                        <div>
+                            <img src="./assets/images/sobremesa/Trufas.jpg" alt="">
+                                <h2>Trufas de chocolate</h2>
+                                    <div>
+                                        <p>5 trufas de chocolate</p>
+                                    </div>
+                                <h3>R$ 11,40</h3>
+                            </div>
+                        </div>
+                    </label>
+                </li>
+            </ul>
+        </div>
+        <!-- fim sobremesas -->
+
+    </div>
+
+    <!-- inicio finalizar do pedido -->
+    <div class="bottom">
+        <button class="botao" id="botaoId" onclick="enviar()" disabled>
+            <div>
+                <h2>Selecione os 3 itens
+                <div>para fechar o pedido</div></h2>
+            </div>
+        </button>
+    </div>
+    <!-- fim finalizar do pedido -->
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
