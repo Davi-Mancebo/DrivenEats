@@ -77,6 +77,6 @@ function enviar(){
 
     let mensagemEnviar = encodeURIComponent(mensagem);
 
-    window.open("https://wa.me/+5515997465967?text=" + mensagemEnviar, '_blank')
+    window.open("https://wa.me/+5515991974762?text=" + mensagemEnviar, '_blank')
 
 }
